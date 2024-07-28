@@ -1,0 +1,23 @@
+@import "../../utils/styles/variables.scss";
+
+.header{
+    background-color: $bglightGreenColor;
+    height: 13vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .header{
+        height: 10vh;
+    }
+
+    .logo{
+        height: 65px;
+        width: 60px;
+    }
+}
+

@@ -1,0 +1,44 @@
+@import "../../utils/styles/variables.scss";
+
+.footerContainer {
+  background-color: $bgBlack;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  padding: 20px;
+  align-items: center;
+}
+
+.text {
+  color: $textWhite;
+  font-size: 14px;
+  font-family: $primary-font;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 20%;
+  padding-top: 2px;
+}
+
+@media screen and (max-width: 425px) {
+  .text {
+    font-size: 10px;
+  }
+
+  .textContainer {
+    padding-right: 10px;
+    height: 44px;
+  }
+
+  .icons {
+    width: 35%;
+  }
+}

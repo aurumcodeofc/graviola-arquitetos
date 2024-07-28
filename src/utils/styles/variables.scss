@@ -1,0 +1,30 @@
+//Century Gothic
+@font-face {
+  font-family: "Century Gothic";
+  src: url("/fonts/CenturyGothic/CenturyGothic.ttf") format("truetype");
+}
+
+//variables
+
+//fonts
+$primary-font: "Century Gothic", sans-serif;
+$secondary-font: "MuseoModerno", sans-serif;
+
+//weight
+$regular: 400;
+
+//colors
+//Green
+$bglightGreenColor: #93a267;
+$secondaryboldGreenColor: #485935;
+$boldWhite: #cadbb7;
+
+//White
+$lightWhite: #f1f1e9;
+$white: #fbfbfb;
+$bgBody: rgba(241, 241, 233, 0.75);
+$bgBlack: #000000;
+
+//Black
+$textBlack: #1e1e1d;
+$textWhite: #ffffff;
